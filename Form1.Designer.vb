@@ -22,6 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -32,7 +33,6 @@ Partial Class Form1
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.TextBox5 = New System.Windows.Forms.TextBox()
-<<<<<<< HEAD
         Me.TextBox6 = New System.Windows.Forms.TextBox()
         Me.TextBox7 = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -43,50 +43,30 @@ Partial Class Form1
         Me.Label8 = New System.Windows.Forms.Label()
         Me.TextBox8 = New System.Windows.Forms.TextBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-=======
->>>>>>> dd7fd75ffeefc3f0881770264ad3b8dd91db1e78
         Me.SuspendLayout()
         '
         'TextBox1
         '
-<<<<<<< HEAD
         Me.TextBox1.Location = New System.Drawing.Point(180, 76)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(113, 30)
-=======
-        Me.TextBox1.Location = New System.Drawing.Point(96, 76)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(258, 30)
->>>>>>> dd7fd75ffeefc3f0881770264ad3b8dd91db1e78
         Me.TextBox1.TabIndex = 0
         Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label1
         '
         Me.Label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-<<<<<<< HEAD
         Me.Label1.Location = New System.Drawing.Point(35, 139)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(258, 56)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Serial Number"
-=======
-        Me.Label1.Location = New System.Drawing.Point(96, 151)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(258, 56)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Temperature"
->>>>>>> dd7fd75ffeefc3f0881770264ad3b8dd91db1e78
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label2
         '
         Me.Label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-<<<<<<< HEAD
         Me.Label2.Location = New System.Drawing.Point(35, 286)
-=======
-        Me.Label2.Location = New System.Drawing.Point(96, 260)
->>>>>>> dd7fd75ffeefc3f0881770264ad3b8dd91db1e78
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(258, 56)
         Me.Label2.TabIndex = 2
@@ -96,11 +76,7 @@ Partial Class Form1
         'Label3
         '
         Me.Label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-<<<<<<< HEAD
         Me.Label3.Location = New System.Drawing.Point(35, 352)
-=======
-        Me.Label3.Location = New System.Drawing.Point(96, 367)
->>>>>>> dd7fd75ffeefc3f0881770264ad3b8dd91db1e78
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(258, 56)
         Me.Label3.TabIndex = 3
@@ -110,11 +86,7 @@ Partial Class Form1
         'Label4
         '
         Me.Label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-<<<<<<< HEAD
         Me.Label4.Location = New System.Drawing.Point(35, 427)
-=======
-        Me.Label4.Location = New System.Drawing.Point(96, 479)
->>>>>>> dd7fd75ffeefc3f0881770264ad3b8dd91db1e78
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(258, 56)
         Me.Label4.TabIndex = 4
@@ -123,64 +95,39 @@ Partial Class Form1
         '
         'Button1
         '
-<<<<<<< HEAD
         Me.Button1.Location = New System.Drawing.Point(344, 76)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(216, 46)
-=======
-        Me.Button1.Location = New System.Drawing.Point(568, 76)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(309, 46)
->>>>>>> dd7fd75ffeefc3f0881770264ad3b8dd91db1e78
         Me.Button1.TabIndex = 5
         Me.Button1.Text = "Search"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'TextBox2
         '
-<<<<<<< HEAD
         Me.TextBox2.Location = New System.Drawing.Point(344, 165)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(216, 30)
-=======
-        Me.TextBox2.Location = New System.Drawing.Point(568, 165)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(309, 30)
->>>>>>> dd7fd75ffeefc3f0881770264ad3b8dd91db1e78
         Me.TextBox2.TabIndex = 6
         Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox3
         '
-<<<<<<< HEAD
         Me.TextBox3.Location = New System.Drawing.Point(344, 300)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(216, 30)
-=======
-        Me.TextBox3.Location = New System.Drawing.Point(568, 286)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(309, 30)
->>>>>>> dd7fd75ffeefc3f0881770264ad3b8dd91db1e78
         Me.TextBox3.TabIndex = 7
         Me.TextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox4
         '
-<<<<<<< HEAD
         Me.TextBox4.Location = New System.Drawing.Point(344, 366)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(216, 30)
-=======
-        Me.TextBox4.Location = New System.Drawing.Point(568, 393)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(309, 30)
->>>>>>> dd7fd75ffeefc3f0881770264ad3b8dd91db1e78
         Me.TextBox4.TabIndex = 8
         Me.TextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox5
         '
-<<<<<<< HEAD
         Me.TextBox5.Location = New System.Drawing.Point(344, 453)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(216, 30)
@@ -270,19 +217,10 @@ Partial Class Form1
         Me.TextBox8.TabIndex = 18
         Me.TextBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-=======
-        Me.TextBox5.Location = New System.Drawing.Point(568, 505)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(309, 30)
-        Me.TextBox5.TabIndex = 9
-        Me.TextBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
->>>>>>> dd7fd75ffeefc3f0881770264ad3b8dd91db1e78
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 23.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-<<<<<<< HEAD
         Me.ClientSize = New System.Drawing.Size(1031, 559)
         Me.Controls.Add(Me.TextBox8)
         Me.Controls.Add(Me.Label8)
@@ -293,9 +231,6 @@ Partial Class Form1
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.TextBox7)
         Me.Controls.Add(Me.TextBox6)
-=======
-        Me.ClientSize = New System.Drawing.Size(979, 630)
->>>>>>> dd7fd75ffeefc3f0881770264ad3b8dd91db1e78
         Me.Controls.Add(Me.TextBox5)
         Me.Controls.Add(Me.TextBox4)
         Me.Controls.Add(Me.TextBox3)
@@ -307,13 +242,11 @@ Partial Class Form1
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TextBox1)
         Me.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Form1"
         Me.Text = "JonBalSat"
-<<<<<<< HEAD
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-=======
->>>>>>> dd7fd75ffeefc3f0881770264ad3b8dd91db1e78
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
